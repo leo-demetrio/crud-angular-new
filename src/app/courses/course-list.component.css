@@ -2,3 +2,6 @@ img {
     width: 40px;
     height: 40px;
 }
+td a {
+    margin-right: 10px;
+}
