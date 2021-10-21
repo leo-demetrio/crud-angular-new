@@ -5,13 +5,13 @@ import { NavBarComponent } from "./components/nav-bar/nav-bar.component";
 
 @NgModule({
     declarations: [
-        NavBarComponent
+        NavBarComponent,
     ],
     imports: [
         RouterModule.forChild([
             {
                 path: '**', component: NotFoundComponent
-            }
+            },
         ])
     ],
     exports: [
